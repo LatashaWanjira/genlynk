@@ -26,6 +26,50 @@ hr {
   background-color: var(--primary);
 }
 
+.btn {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  color: white;
+  border-radius: 50px;
+  padding: 0.2em 1em;
+  margin: 0.2em;
+}
+
+.btn:hover {
+  background: white;
+  border: 1px solid white;
+  color: var(--primary);
+}
+
+.navbar {
+  padding: 0;
+  transition: background 0.5s;
+}
+
+.navbar-brand, a.nav-link {
+  color: white;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+a.nav-link {
+  font-size: 1.2em;
+  padding: 0.5em 5em;
+}
+
+a.nav-link:hover {
+  color: var(--primary);
+  background: white;
+  transition: all 0.5s;
+}
+
+.scrolled {
+  background: var(--primary);
+  transition: background 0.5s;
+}
+
 .landing-screen {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/generator.jpg");
   background-size: cover;
@@ -37,6 +81,18 @@ hr {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.landing-screen h1 {
+  font-size: 10em;
+}
+
+.landing-screen h3 {
+  font-size: 2em;
+}
+
+.landing-screen .btn {
+  font-size: 1.5em;
 }
 
 /*.about-us {
@@ -60,15 +116,23 @@ hr {
   text-align: center;
 }
 
-.features img {
+.features-2 {
+  background: var(--light-bg);
+  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);*/
+  margin-bottom: -3em;
+  text-align: center;
+}
+
+.features img, .features-2 img {
   width: 50%;
 }
 
 .contacts {
   background: var(--primary);
   color: white;
-  -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  -webkit-clip-path: polygon(0 3em, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 3em, 100% 0, 100% 100%, 0% 100%);
   text-align: center;
 }
 
