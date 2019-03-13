@@ -1,7 +1,11 @@
+/*COLOURS*/
+
 :root {
   --primary: #1C5CA3;
   --light-bg: #FBFBFB;
 }
+
+/*GENERAL PAGE STYLING*/
 
 body {
   padding: 0;
@@ -26,6 +30,8 @@ hr {
   background-color: var(--primary);
 }
 
+/*BUTTON*/
+
 .btn {
   background: var(--primary);
   border: 1px solid var(--primary);
@@ -41,8 +47,10 @@ hr {
   color: var(--primary);
 }
 
+/*NAVBAR*/
+
 .navbar {
-  padding: 0;
+  padding: 0 7.5em;
   transition: background 0.5s;
 }
 
@@ -65,10 +73,16 @@ a.nav-link:hover {
   transition: all 0.5s;
 }
 
+button.navbar-toggler {
+  color: white;
+}
+
 .scrolled {
   background: var(--primary);
   transition: background 0.5s;
 }
+
+/*LANDING SCREEN*/
 
 .landing-screen {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/generator.jpg");
@@ -95,13 +109,7 @@ a.nav-link:hover {
   font-size: 1.5em;
 }
 
-/*.about-us {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
-}*/
-
 .about-us .row {
-  display: flex;
   align-items: center;
 }
 
@@ -140,6 +148,11 @@ a.nav-link:hover {
   background-color: var(--light-bg);
 }
 
+.contacts ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 .footer {
   background: var(--primary);
   color: white;
@@ -150,4 +163,84 @@ a.nav-link:hover {
 
 .footer p {
   margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  /*NAVBAR*/
+  .navbar {
+    background: rgba(28, 92, 163, 1);
+    padding: .5em 3em;
+  }
+  /*LANDING SCREEN*/
+  .landing-screen {
+    height: 60vh;
+    padding-top: 5vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0% 100%);
+  }
+  .landing-screen h1 {
+    font-size: 7em;
+  }
+  /*FEATURES*/
+  .features {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
+  }
+  .features img, .features-2 img {
+    width: 30%;
+  }
+  /*CONTACTS*/
+  .contacts {
+    -webkit-clip-path: polygon(0 2em, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 2em, 100% 0, 100% 100%, 0% 100%);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  /*NAVBAR*/
+  .navbar {
+    padding: .5em 1em;
+  }
+  .navbar-brand {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  a.nav-link, a.dropdown-item {
+    font-size: 0.9em;
+  }
+  a.nav-link:focus, a.dropdown-toggle:focus {
+    border-bottom: 1px solid white;
+  }
+  a.nav-link.dropdown-toggle, a.dropdown-item {
+    background: none;
+    color: white;
+  }
+  .dropdown-menu {
+    background: none;
+    border: 0;
+  }
+  /*LANDING SCREEN*/
+  .landing-screen {
+    height: 60vh;
+    padding-top: 5vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  }
+  .landing-screen h1 {
+    font-size: 4em;
+  }
+  .landing-screen h3 {
+    font-size: 1em;
+  }
+  .landing-screen .btn {
+    font-size: 1em;
+  }
+  /*FEATURES*/
+  .features {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 98%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 98%);
+  }
+  .features img, .features-2 img {
+    width: 30%;
+  }
 }

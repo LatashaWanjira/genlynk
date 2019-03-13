@@ -35,3 +35,15 @@
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
   text-align: center;
 }
+
+@media only screen and (max-width: 425px) {
+  .landing-screen {
+    height: 30vh;
+  }
+  .landing-screen h1 {
+    font-size: 3em;
+  }
+  .landing-screen h3 {
+    font-size: 1.2em;
+  }
+}

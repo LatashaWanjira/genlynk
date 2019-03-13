@@ -26,49 +26,43 @@
 
     <body>
         <nav class="navbar fixed-top navbar-expand-lg">
-            <div class="container">
-                <h3 class="navbar-brand" href="#">GenLynk</h3>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#genlynkNavbar" aria-controls="genlynkNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="genlynkNavbar">
-                    <ul class="navbar-nav mr-0 ml-auto my-2 my-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Install</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sign In</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Sign In</a>
-                                <a class="dropdown-item" href="#">Log In</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <h3 class="navbar-brand" href="#">GenLynk</h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#genlynkNavbar" aria-controls="genlynkNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="fas fa-bars"></span></button>
+            <div class="collapse navbar-collapse" id="genlynkNavbar">
+                <ul class="navbar-nav mr-0 ml-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/install.html">Install</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/sign-up.html">Sign Up</a>
+                    </li>
+                </ul>
             </div>
         </nav>
         <div class="landing-screen">
             <h1>GenLynk</h1>
             <h3>Lorem ipsum dolor sit amet.</h3>
             <div>
-                <button type="button" name="button" class=btn>Sign Up</button>
-                <button type="button" name="button" class=btn>Pricing</button>
+                <a href="#"><button type="button" name="button" class=btn>Sign Up</button></a>
+                <a href="pricing"><button type="button" name="button" class=btn>Pricing</button></a>
             </div>
         </div>
         <div class="about-us py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row  justify-content-center">
+                    <div class="col-md-7">
                         <h2>About Us</h2>
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quibusdam numquam, saepe sapiente dolore nobis dignissimos deserunt libero eligendi officiis at quo accusantium et cupiditate distinctio fugit tenetur esse voluptate,
                             nulla iusto autem similique illum. Aliquid, cupiditate neque, autem voluptas et saepe debitis quisquam maxime distinctio quis obcaecati, fugiat numquam?</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <img src="assets/generator.jpg" alt="Generator Image">
                     </div>
                 </div>
@@ -78,7 +72,7 @@
             <div class="container">
                 <h2>Features</h2>
                 <hr>
-                <div class="row my-5">
+                <div class="row  justify-content-center my-5">
                     <div class="col-md-3">
                         <img src="assets/genlynk-logo.jpg" alt="">
                         <h3>Lorem Ipsum</h3>
@@ -104,14 +98,17 @@
         </div>
         <div class="about-us py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row  justify-content-center">
+                    <div class="col-md-5 d-md-block d-none">
+                        <img src="assets/generator.jpg" alt="Generator Image">
+                    </div>
+                    <div class="col-md-7">
                         <h2>About Us</h2>
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quibusdam numquam, saepe sapiente dolore nobis dignissimos deserunt libero eligendi officiis at quo accusantium et cupiditate distinctio fugit tenetur esse voluptate,
                             nulla iusto autem similique illum. Aliquid, cupiditate neque, autem voluptas et saepe debitis quisquam maxime distinctio quis obcaecati, fugiat numquam?</p>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5 d-md-none d-block">
                         <img src="assets/generator.jpg" alt="Generator Image">
                     </div>
                 </div>
@@ -121,23 +118,18 @@
             <div class="container">
                 <h2>Features</h2>
                 <hr>
-                <div class="row my-5">
-                    <div class="col-md-3">
+                <div class="row  justify-content-center my-5">
+                    <div class="col-lg-3 col-md-4">
                         <img src="assets/genlynk-logo.jpg" alt="">
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quam.</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-4">
                         <img src="assets/genlynk-logo.jpg" alt="">
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quam.</p>
                     </div>
-                    <div class="col-md-3">
-                        <img src="assets/genlynk-logo.jpg" alt="">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quam.</p>
-                    </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-4">
                         <img src="assets/genlynk-logo.jpg" alt="">
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quam.</p>
@@ -149,7 +141,7 @@
             <div class="container">
                 <h2>Contact Us</h2>
                 <hr>
-                <div class="row py-4">
+                <div class="row  justify-content-center py-4">
                     <div class="col-md-4">
                         <h4>Some things</h4>
                         <ul>
@@ -159,7 +151,7 @@
                     <div class="col-md-4">
                         <h4>Some things</h4>
                         <ul>
-                            <li>Thing</li>
+                            <li><a href="/faq.html">FAQs</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">

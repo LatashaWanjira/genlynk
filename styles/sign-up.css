@@ -1,0 +1,160 @@
+/*COLOURS*/
+
+:root {
+  --primary: #1C5CA3;
+  --light-bg: #FBFBFB;
+}
+
+/*GENERAL PAGE STYLING*/
+
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/generator.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+a {
+  color: inherit;
+}
+
+hr {
+  margin: 1em;
+  width: 15em;
+  margin-left: calc(50% - 7.5em);
+  border: none;
+  height: 2px;
+  background-color: var(--primary);
+}
+
+/*BUTTON*/
+
+.btn {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  color: white;
+  border-radius: 50px;
+  padding: 0.2em 1em;
+  margin: 0.2em;
+}
+
+.btn:hover {
+  background: white;
+  border: 1px solid white;
+  color: var(--primary);
+}
+
+.nav-link:hover {
+  background: var(--primary);
+  color: white;
+  transition: all 0.5s;
+  border: var(--primary);
+}
+
+.d-flex {
+  height: 100%;
+}
+
+.form-sections {
+  width: 40%;
+  text-align: center;
+}
+
+.inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+.inp .label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  transform-origin: 0 0;
+  transition: all 0.2s ease;
+}
+
+.inp .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #07f;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: all 0.15s ease;
+}
+
+.inp input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 12px 0;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid var(--light-bg);
+  background: none;
+  border-radius: 0;
+  color: white;
+  transition: all 0.15s ease;
+}
+
+.inp input:hover {
+  background: rgba(34, 50, 84, 0.03);
+}
+
+.inp input:not(:placeholder-shown)+span {
+  color: white;
+  transform: translateY(-26px) scale(0.75);
+}
+
+.inp input:focus {
+  background: none;
+  outline: none;
+}
+
+.inp input:focus+span {
+  color: white;
+  transform: translateY(-26px) scale(0.75);
+}
+
+.inp input:focus+span+.border {
+  transform: scaleX(1);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: var(--primary);
+  color: white;
+  border-top: 0.1px solid var(--light-bg);
+  text-align: center;
+  padding: .5em 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+@media only screen and (max-width: 769px) {
+  .form-sections {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .form-sections {
+    width: 80%;
+  }
+}
