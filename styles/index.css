@@ -45,6 +45,10 @@ hr {
   background: white;
   border: 1px solid white;
   color: var(--primary);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s;
 }
 
 /*NAVBAR*/
