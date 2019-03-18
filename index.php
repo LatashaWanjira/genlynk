@@ -20,7 +20,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
         <!-- TITLE AND FAVICON -->
-        <link rel="icon" href="assets/genlynk-logo.jpg" sizes="any">
+        <link rel="icon" href="assets/genlynk-logo.png" sizes="any">
         <title>GenLynk</title>
     </head>
 
@@ -30,10 +30,10 @@
         <!-- navbar -->
         <div class="landing-screen">
             <h1>GenLynk</h1>
-            <h3>Lorem ipsum dolor sit amet.</h3>
+            <h3>Linking you to your investment</h3>
             <div>
-                <a href="#"><button type="button" name="button" class=btn>Sign Up</button></a>
-                <a href="pricing"><button type="button" name="button" class=btn>Pricing</button></a>
+                <a href="/sign-up.php"><button type="button" name="button" class=btn>Sign Up</button></a>
+                <a href="/pricing.php"><button type="button" name="button" class=btn>Pricing</button></a>
             </div>
         </div>
         <div class="about-us py-5">
@@ -46,7 +46,7 @@
                             nulla iusto autem similique illum. Aliquid, cupiditate neque, autem voluptas et saepe debitis quisquam maxime distinctio quis obcaecati, fugiat numquam?</p>
                     </div>
                     <div class="col-md-5">
-                        <img src="assets/generator.jpg" alt="Generator Image">
+                        <img src="assets/g1.jpg" alt="Generator Image">
                     </div>
                 </div>
             </div>
@@ -57,7 +57,7 @@
                 <hr>
                 <div class="row  justify-content-center my-5">
                     <div class="col-md-3">
-                        <img src="assets/genlynk-logo.jpg" alt="">
+                        <img src="assets/genlynk-logo.png" alt="">
                         <h3>Generator On/Off Status</h3>
                         <p>
                             Immediately know when your generators are switched on. 
@@ -66,7 +66,7 @@
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="assets/genlynk-logo.jpg" alt="">
+                        <img src="assets/genlynk-logo.png" alt="">
                         <h3>Maintenance Reminders</h3>
                         <p>
                             You might forget when you're generators need maintenance but EnergyLogicIQ will not. 
@@ -78,7 +78,7 @@
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="assets/genlynk-logo.jpg" alt="">
+                        <img src="assets/genlynk-logo.png" alt="">
                         <h3>Fuel Level and Volume Monitoring</h3>
                         <p>
                             If your generator is supplied fuel from an external tank we can also monitor its fuel. 
@@ -86,7 +86,7 @@
                         </p>
                     </div>
                     <div class="col-md-3">
-                        <img src="assets/genlynk-logo.jpg" alt="">
+                        <img src="assets/genlynk-logo.png" alt="">
                         <h3>Powerful Analysis Tools</h3>
                         <p>
                             If your generator panel has a controller panel that has a modbus port 
@@ -100,7 +100,7 @@
             <div class="container">
                 <div class="row  justify-content-center">
                     <div class="col-md-5 d-md-block d-none">
-                        <img src="assets/generator.jpg" alt="Generator Image">
+                        <img src="assets/g2.jpg" alt="Generator Image">
                     </div>
                     <div class="col-md-7">
                         <h2>About Us</h2>
@@ -109,7 +109,7 @@
                             nulla iusto autem similique illum. Aliquid, cupiditate neque, autem voluptas et saepe debitis quisquam maxime distinctio quis obcaecati, fugiat numquam?</p>
                     </div>
                     <div class="col-md-5 d-md-none d-block">
-                        <img src="assets/generator.jpg" alt="Generator Image">
+                        <img src="assets/g3.jpg" alt="Generator Image">
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
                 <hr>
                 <div class="row  justify-content-center my-5">
                     <div class="col-lg-3 col-md-4">
-                        <img src="assets/genlynk-logo.jpg" alt="">
+                        <img src="assets/genlynk-logo.png" alt="">
                         <h3>Accountability</h3>
                         <p>
                             EnergyLogicIQ measure fuel consumed, filled or lost in your generator. 
@@ -130,7 +130,7 @@
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-4">
-                        <img src="assets/genlynk-logo.jpg" alt="">
+                        <img src="assets/genlynk-logo.png" alt="">
                         <h3>Scalability</h3>
                         <p>
                             If your generator is supplied fuel from an external tank we can also monitor its fuel. 
@@ -138,7 +138,7 @@
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-4">
-                        <img src="assets/genlynk-logo.jpg" alt="">
+                        <img src="assets/genlynk-logo.png" alt="">
                         <h3>AI</h3>
                         <p>
                             If your generator panel has a controller panel that has a modbus port EnergyLogicIQ can connect 
