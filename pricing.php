@@ -39,7 +39,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <h5 class="card-title">$100</h5>
+                                <h5 class="card-title">$12</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">Cras justo odio</li>
@@ -53,7 +53,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <h5 class="card-title">$100</h5>
+                                <h5 class="card-title">$11</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">Cras justo odio</li>
@@ -67,7 +67,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <h5 class="card-title">$100</h5>
+                                <h5 class="card-title">$10</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">Cras justo odio</li>
@@ -81,7 +81,7 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="card mb-5">
                             <div class="card-body">
-                                <h5 class="card-title">$100</h5>
+                                <h5 class="card-title">$9</h5>
                                 <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">Cras justo odio</li>
@@ -95,39 +95,9 @@
                 </div>
             </div>
         </div>
-        <div class="contacts pt-5">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <hr>
-                <div class="row py-4">
-                    <div class="col-md-4">
-                        <h4>Some things</h4>
-                        <ul>
-                            <li>Thing</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Some things</h4>
-                        <ul>
-                            <li><a href="/faq.html">FAQs</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter-square"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <p>
-                &copy; GenLynk
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script>
-            </p>
-        </div>
+        <!-- contact+footer -->
+        <?php include('contact-footer.php')?>
+        <!-- contact+footer -->
         <script type="text/javascript">
             $(document).ready(function() {
                 $(function() {

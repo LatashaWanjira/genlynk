@@ -23,7 +23,9 @@
         <link rel="icon" href="assets/genlynk-logo.jpg" sizes="any">
         <title>GenLynk</title>
     </head>
-
+    <style>
+        a:hover{color:white;}
+    </style>
     <body>
         <div class="d-flex flex-column justify-content-center align-items-center">
             <h1 class="text-center pb-3">Genlynk</h1>
@@ -94,10 +96,11 @@
         </div>
         <div class="footer">
             <p>
-                &copy; GenLynk
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script>
+                <a href="index.php">&copy; GenLynk
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                </a>
             </p>
         </div>
     </body>

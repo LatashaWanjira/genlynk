@@ -31,7 +31,9 @@
             .card-body{height:33vh;}
             .card-link{bottom: 0;}
         </style>
+        <!-- navbar -->
         <?php include('navbar.php');?>
+        <!-- navbar -->
         <div class="landing-screen text-center py-5">
             <h1>Installation</h1>
             <h3>How our generators are installed.</h3>
@@ -138,39 +140,9 @@
                 </div>
             </div>
         </div>
-        <div class="contacts pt-5">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <hr>
-                <div class="row py-4">
-                    <div class="col-md-4">
-                        <h4>Some things</h4>
-                        <ul>
-                            <li>Thing</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Some things</h4>
-                        <ul>
-                            <li><a href="/faq.html">FAQs</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter-square"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <p>
-                &copy; GenLynk
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script>
-            </p>
-        </div>
+        <!-- contact+footer -->
+        <?php include('contact-footer.php')?>
+        <!-- contact+footer -->
         <script type="text/javascript">
             $(document).ready(function() {
                 $(function() {
