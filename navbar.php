@@ -1,5 +1,8 @@
+<style>
+        a:hover{color:white;}
+    </style>
 <nav class="navbar fixed-top navbar-expand-lg">
-    <h3 class="navbar-brand" href="#">GenLynk</h3>
+    <h3 class="navbar-brand" ><a href="/">GenLynk</a></h3>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#genlynkNavbar" aria-controls="genlynkNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="fas fa-bars"></span></button>
     <div class="collapse navbar-collapse" id="genlynkNavbar">
         <ul class="navbar-nav mr-0 ml-auto my-2 my-lg-0">
