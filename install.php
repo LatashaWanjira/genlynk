@@ -11,8 +11,11 @@
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
         <!-- Custom Stylesheet -->
-        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/install.css">
 
         <!-- SCRIPTS -->
@@ -21,16 +24,12 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
         <!-- TITLE AND FAVICON -->
-        <link rel="icon" href="assets/genlynk-logo.jpg" sizes="any">
+        <link rel="icon" href="assets/genlynk-logo.png" sizes="any">
         <title>GenLynk</title>
-        
+
     </head>
 
     <body>
-        <style>
-            .card-body{height:33vh;}
-            .card-link{bottom: 0;}
-        </style>
         <!-- navbar -->
         <?php include('navbar.php');?>
         <!-- navbar -->
@@ -40,6 +39,7 @@
         </div>
         <div class="py-5">
             <div class="container">
+              <img src="assets/image2.png" alt="Our Process" width="60%" class="mb-5 center">
                 <div class="row justify-content-center">
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
@@ -48,12 +48,8 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    Fuel level sensor is used to sense the level of fuel contained in the generator fuel tank. 
-                                    We provide capacitive level sensors for tanks up 1 meter in 
-                                    depth and ultrasonic level transmitter for tanks depth greater than 1 meter
+                                    Fuel level sensor is used to sense the level of fuel contained in the generator fuel tank. We provide capacitive level sensors for tanks up 1 meter in depth and ultrasonic level transmitter for tanks depth greater than 1 meter.
                                 </p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
                     </div>
@@ -64,11 +60,8 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    12/24VDC battery or battery bank is used to start the generators. 
-                                    Battery voltage monitoring helps you identify if battery needs charging or replacement.
+                                    12/24VDC battery or battery bank is used to start the generators. Battery voltage monitoring helps you identify if battery needs charging or replacement.
                                 </p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
                     </div>
@@ -79,12 +72,8 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    This provides generator ON and OFF status . The ON/OFF status is detected by PFC (potential free contact),
-                                    relay switch and power adapter on electrical panel. 
-                                    A time counter monitors the on and off status and provides the run hours of the generator up to the accuracy of 1 second.
+                                    This provides generator ON and OFF status. The ON/OFF status is detected by PFC (potential free contact), relay switch and power adapter on electrical panel. A time counter monitors the on and off status and provides the run hours of the generator up to the accuracy of 1 second.
                                 </p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
                     </div>
@@ -95,13 +84,8 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    Class 1 accurate energy meter provides electrical parameters. 
-                                    These parameters along with fuel consumed is used to calculate generator efficiency. 
-                                    Parameters being monitored from Energy Meter are: 
-                                    active power,reactive power,frequency, power factor,average current and voltages and total units generated .
+                                    Class 1 accurate energy meter provides electrical parameters. These parameters along with fuel consumed is used to calculate generator efficiency. Parameters being monitored from Energy Meter are: <strong>active power, reactive power, frequency, power factor, average current and voltages and total units generated.</strong>
                                 </p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
                     </div>
@@ -112,13 +96,8 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    Flow sensors will be installed on the main line and return line which utilizes the principle of positive displacement 
-                                    for monitoring the fuel consumption. The flow sensors are connected to a flow totalizer which 
-                                    calculates instantaneous flow,cumulative flow and total time, etc. 
-                                    The flow meter should be used if you want to monitor generator fuel consumption more accurately.
+                                    Flow sensors will be installed on the main line and return line which utilizes the principle of positive displacement for monitoring the fuel consumption. The flow sensors are connected to a flow totalizer which calculates instantaneous flow, cumulative flow and total time, etc. The flow meter should be used if you want to monitor generator fuel consumption more accurately.
                                 </p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
                     </div>
@@ -129,11 +108,9 @@
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
-                                    If your generator had a controller, that we support, it can also be integrated with the system. 
+                                    If your generator had a controller, that we support, it can also be integrated with the system.
                                     We support the following generator controllers: DEIF, ComAP
                                 </p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
                             </div>
                         </div>
                     </div>

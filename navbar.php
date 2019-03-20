@@ -13,10 +13,10 @@
                 <a class="nav-link" href="install.php">Install</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pricing.php">Pricing</a>
+                <a class="nav-link" href="our-products.php">Our Products</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="sign-up.php">Sign Up</a>
+                <a class="nav-link" href="partner-with-us.php">Partner With Us</a>
             </li>
         </ul>
     </div>

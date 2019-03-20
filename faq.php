@@ -11,8 +11,11 @@
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
         <!-- Custom Stylesheet -->
-        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/install.css">
 
         <!-- SCRIPTS -->
@@ -21,7 +24,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
         <!-- TITLE AND FAVICON -->
-        <link rel="icon" href="assets/genlynk-logo.jpg" sizes="any">
+        <link rel="icon" href="assets/genlynk-logo.png" sizes="any">
         <title>GenLynk</title>
     </head>
 
