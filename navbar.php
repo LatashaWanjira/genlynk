@@ -10,7 +10,7 @@
                 <a class="nav-link" href="index.php">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="install.php">Install</a>
+                <a class="nav-link" href="install.php">How it Works</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="our-products.php">Our Products</a>
