@@ -120,7 +120,7 @@
         </div>
         <div class="features-2 py-5">
             <div class="container">
-                <h2>Features</h2>
+                <h2>Sustainability</h2>
                 <hr>
                 <div class="row  justify-content-center my-5">
                     <div class="col-md-4">

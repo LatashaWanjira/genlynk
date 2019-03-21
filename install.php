@@ -67,7 +67,7 @@
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
                             <div class="card-header">
-                                Geneartor ON/OFF Status
+                                Generator ON/OFF Status
                             </div>
                             <div class="card-body">
                                 <p class="card-text">
