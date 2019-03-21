@@ -20,7 +20,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
         <!-- TITLE AND FAVICON -->
-        <link rel="icon" href="assets/genlynk-logo.jpg" sizes="any">
+        <link rel="icon" href="assets/genlynk-logo.png" sizes="any">
         <title>GenLynk</title>
     </head>
     <style>

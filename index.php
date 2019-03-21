@@ -100,7 +100,7 @@
             <div class="container">
                 <div class="row  justify-content-center">
                     <div class="col-md-5 d-md-block d-none">
-                        <img src="assets/g2.jpg" alt="Generator Image">
+                        <img src="assets/g7.jpg" alt="Generator Image">
                     </div>
                     <div class="col-md-7">
                         <h2>About Us</h2>

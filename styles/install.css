@@ -22,7 +22,7 @@
 .contacts {
   background: var(--primary);
   color: white;
-  -webkit-clip-path: polygon(0 0, 100% 15%;
+  -webkit-clip-path: polygon(0 0, 100% 15%
   , 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
   text-align: center;
