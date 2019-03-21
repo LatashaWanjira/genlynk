@@ -3,7 +3,7 @@
 :root {
   --primary: #1C5CA3;
   --secondary: #32936F;
-  --light-bg: #FBFBFB;
+  --light-bg: #B5D2F2;
 }
 
 /*GENERAL PAGE STYLING*/
@@ -99,7 +99,7 @@ button.navbar-toggler {
 }
 
 .contacts hr {
-  background-color: var(--light-bg);
+  background-color: white;
 }
 
 .contacts ul {
