@@ -34,8 +34,7 @@
         <?php include('navbar.php');?>
         <!-- navbar -->
         <div class="landing-screen text-center py-5">
-            <h1>Installation</h1>
-            <h3>How our generators are installed.</h3>
+            <h1>How GenLynk Works</h1>
         </div>
         <div class="py-5">
             <div class="container">
