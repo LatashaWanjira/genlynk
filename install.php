@@ -118,7 +118,6 @@
         </div>
         <!-- contact+footer -->
         <?php include('contact-footer.php')?>
-        <!-- contact+footer -->
         <script type="text/javascript">
             $(document).ready(function() {
                 $(function() {
