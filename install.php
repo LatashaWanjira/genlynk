@@ -117,7 +117,7 @@
             </div>
         </div>
         <!-- contact+footer -->
-        <?php include('contact-footer.php')?>
+        <?php include('contact-footer.php');?>
         <script type="text/javascript">
             $(document).ready(function() {
                 $(function() {
