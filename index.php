@@ -95,24 +95,6 @@
             </div>
         </div>
         <div class="about-us py-5">
-<<<<<<< HEAD
-            <div class="container">
-                <div class="row  justify-content-center">
-                    <div class="col-md-5 d-md-block d-none">
-                        <img src="assets/g7.jpg" alt="Generator Image">
-                    </div>
-                    <div class="col-md-7">
-                        <h2>About Us</h2>
-                        <hr>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quibusdam numquam, saepe sapiente dolore nobis dignissimos deserunt libero eligendi officiis at quo accusantium et cupiditate distinctio fugit tenetur esse voluptate,
-                            nulla iusto autem similique illum. Aliquid, cupiditate neque, autem voluptas et saepe debitis quisquam maxime distinctio quis obcaecati, fugiat numquam?</p>
-                    </div>
-                    <div class="col-md-5 d-md-none d-block">
-                        <img src="assets/g3.jpg" alt="Generator Image">
-                    </div>
-                </div>
-            </div>
-=======
           <div class="container">
               <h2>Benefits</h2>
               <hr>
@@ -135,7 +117,6 @@
                   </div>
               </div>
           </div>
->>>>>>> b4ff75b78a8aa4a94a197a064b3b21f833d863ad
         </div>
         <div class="features-2 py-5">
             <div class="container">
