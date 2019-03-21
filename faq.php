@@ -29,26 +29,9 @@
     </head>
 
     <body>
-        <nav class="navbar fixed-top navbar-expand-lg">
-            <h3 class="navbar-brand" href="#">GenLynk</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#genlynkNavbar" aria-controls="genlynkNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="fas fa-bars"></span></button>
-            <div class="collapse navbar-collapse" id="genlynkNavbar">
-                <ul class="navbar-nav mr-0 ml-auto my-2 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/install.html">Install</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/pricing.html">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/sign-up.html">Sign Up</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <!-- navbar -->
+      <?php include('navbar.php');?>
+      <!-- navbar -->
         <div class="landing-screen text-center px-5">
             <h1>FAQs</h1>
             <h3>Common Questions our customers ask.</h3>
@@ -57,95 +40,63 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. Will GenLynk work on my generator?</h4>
+                            <p>Yes, GenLynk can be used on any brand of generator.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. Does GenLynk stay connected 24/7 or does it just scan every so often?</h4>
+                            <p>It stays connected 24/7.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. I have my generator serviced quarterly, why would I need GenLynk?</h4>
+                            <p>Having a maintenance schedule does not prevent the generator from malfunctioning. It also does not inform you incase of fuel theft. Genlynk enables you to be empowered and proactive. It insures maximum reliability for you, your company and your customers.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. How will I know if there is an alarm or fault with my generator?</h4>
+                            <p>You will be notified immediately either by email or text messaging. It delivers info to specific designated recipients via email, text message, and/or web display, which can include your service company.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. Can I monitor the fuel level?</h4>
+                            <p>Yes.</p>
+                        </div>
+                        <div class="question my-4">
+                          <h4>Q. Can I bill my tenants for actual fuel consumed?</h4>
+                          <p>Yes. See <a href="our-products.php">products</a> page for more details.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. Can I remote start/stop on all makes of generators?</h4>
+                            <p>Yes.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. We have sites in multiple states. Can I observe all of them from one web page?</h4>
+                            <p>Yes.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. We have sites in multiple states. Can I observe all of them from one web page?</h4>
+                            <p>Yes.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. Is there GPS on the monitor?</h4>
+                            <p>GPS is standard on Genlynk.</p>
                         </div>
-                        <div class="question">
-                            <h3>Q. Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, doloremque soluta debitis praesentium repellendus ea distinctio voluptate facere sed, recusandae perspiciatis enim at ex. Voluptatem, vero assumenda aliquam blanditiis
-                                suscipit id nam saepe a, ullam velit harum, aut numquam! Suscipit.</p>
+                        <div class="question my-4">
+                            <h4>Q. I have more than one generator at the site. Can I monitor workfor multiple generators?</h4>
+                            <p>Yes.</p>
+                        </div>
+                        <div class="question my-4">
+                            <h4>Q. Will this operate internationally?</h4>
+                            <p>Yes.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="contacts pt-5">
-            <div class="container">
-                <h2>Contact Us</h2>
-                <hr>
-                <div class="row py-4">
-                    <div class="col-md-4">
-                        <h4>Some things</h4>
-                        <ul>
-                            <li>Thing</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <h4>Some things</h4>
-                        <ul>
-                            <li><a href="/faq.html">FAQs</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-4">
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-twitter-square"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <p>
-                &copy; GenLynk
-                <script type="text/javascript">
-                    document.write(new Date().getFullYear());
-                </script>
-            </p>
-        </div>
+        <!-- contact+footer -->
+        <?php include('contact-footer.php');?>
+        <!-- contact+footer -->
         <script type="text/javascript">
             $(document).ready(function() {
                 $(function() {
