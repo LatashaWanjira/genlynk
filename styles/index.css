@@ -1,91 +1,3 @@
-/*COLOURS*/
-
-:root {
-  --primary: #1C5CA3;
-  --light-bg: #FBFBFB;
-}
-
-/*GENERAL PAGE STYLING*/
-
-body {
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
-}
-
-a {
-  color: inherit;
-}
-
-img {
-  width: 100%;
-}
-
-hr {
-  margin: 1em;
-  width: 15em;
-  margin-left: calc(50% - 7.5em);
-  border: none;
-  height: 2px;
-  background-color: var(--primary);
-}
-
-/*BUTTON*/
-
-.btn {
-  background: var(--primary);
-  border: 1px solid var(--primary);
-  color: white;
-  border-radius: 50px;
-  padding: 0.2em 1em;
-  margin: 0.2em;
-}
-
-.btn:hover {
-  background: white;
-  border: 1px solid white;
-  color: var(--primary);
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-  transition: all 0.5s;
-}
-
-/*NAVBAR*/
-
-.navbar {
-  padding: 0 7.5em;
-  transition: background 0.5s;
-}
-
-.navbar-brand, a.nav-link {
-  color: white;
-}
-
-.navbar-brand {
-  font-size: 2em;
-}
-
-a.nav-link {
-  font-size: 1.2em;
-  padding: 0.5em 5em;
-}
-
-a.nav-link:hover {
-  color: var(--primary);
-  background: white;
-  transition: all 0.5s;
-}
-
-button.navbar-toggler {
-  color: white;
-}
-
-.scrolled {
-  background: var(--primary);
-  transition: background 0.5s;
-}
-
 /*LANDING SCREEN*/
 
 .landing-screen {
@@ -123,15 +35,13 @@ button.navbar-toggler {
 
 .features {
   background: var(--light-bg);
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 85%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%);
   text-align: center;
 }
 
 .features-2 {
   background: var(--light-bg);
-  /*-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);*/
   margin-bottom: -3em;
   text-align: center;
 }
@@ -140,41 +50,7 @@ button.navbar-toggler {
   width: 50%;
 }
 
-.contacts {
-  background: var(--primary);
-  color: white;
-  -webkit-clip-path: polygon(0 3em, 100% 0, 100% 100%, 0% 100%);
-  clip-path: polygon(0 3em, 100% 0, 100% 100%, 0% 100%);
-  text-align: center;
-}
-
-.contacts hr {
-  background-color: var(--light-bg);
-}
-
-.contacts ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.footer {
-  background: var(--primary);
-  color: white;
-  border-top: 0.1px solid var(--light-bg);
-  text-align: center;
-  padding: .5em 0;
-}
-
-.footer p {
-  margin: 0;
-}
-
 @media only screen and (max-width: 768px) {
-  /*NAVBAR*/
-  .navbar {
-    background: rgba(28, 92, 163, 1);
-    padding: .5em 3em;
-  }
   /*LANDING SCREEN*/
   .landing-screen {
     height: 60vh;
@@ -193,36 +69,9 @@ button.navbar-toggler {
   .features img, .features-2 img {
     width: 30%;
   }
-  /*CONTACTS*/
-  .contacts {
-    -webkit-clip-path: polygon(0 2em, 100% 0, 100% 100%, 0% 100%);
-    clip-path: polygon(0 2em, 100% 0, 100% 100%, 0% 100%);
-  }
 }
 
 @media only screen and (max-width: 425px) {
-  /*NAVBAR*/
-  .navbar {
-    padding: .5em 1em;
-  }
-  .navbar-brand {
-    font-size: 1.2em;
-    margin: 0;
-  }
-  a.nav-link, a.dropdown-item {
-    font-size: 0.9em;
-  }
-  a.nav-link:focus, a.dropdown-toggle:focus {
-    border-bottom: 1px solid white;
-  }
-  a.nav-link.dropdown-toggle, a.dropdown-item {
-    background: none;
-    color: white;
-  }
-  .dropdown-menu {
-    background: none;
-    border: 0;
-  }
   /*LANDING SCREEN*/
   .landing-screen {
     height: 60vh;

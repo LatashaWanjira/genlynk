@@ -98,7 +98,7 @@ hr {
   width: 100%;
   border: 0;
   font-family: inherit;
-  padding: 12px 0;
+  padding: 15px 0;
   height: 48px;
   font-size: 16px;
   font-weight: 500;
@@ -115,7 +115,7 @@ hr {
 
 .inp input:not(:placeholder-shown)+span {
   color: white;
-  transform: translateY(-26px) scale(0.75);
+  transform: translateY(-30px) scale(0.75);
 }
 
 .inp input:focus {
@@ -125,7 +125,7 @@ hr {
 
 .inp input:focus+span {
   color: white;
-  transform: translateY(-26px) scale(0.75);
+  transform: translateY(-30px) scale(0.75);
 }
 
 .inp input:focus+span+.border {
