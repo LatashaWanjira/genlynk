@@ -69,7 +69,7 @@
                     <div class="col-md-6 mb-5">
                         <h3>Maintenance Reminders</h3>
                         <p>
-                            You might forget when you're generators need maintenance but EnergyLogicIQ will not.
+                            You might forget when you're generators need maintenance but GenLynk will not.
                             It will remember maintenance schedules based on run hours or periodic maintenance due and alert you in time.
                             It will also alert you when it detects condition that may need immediate attention so that downtime can be avoided.
                             Immediately know when your generators are switched on.
@@ -88,7 +88,7 @@
                         <h3>Powerful Analysis Tools</h3>
                         <p>
                             If your generator panel has a controller panel that has a modbus port
-                            EnergyLogicIQ can connect to it to acquire more information for greater insights and savings.
+                            GenLynk can connect to it to acquire more information for greater insights and savings.
                         </p>
                     </div>
                 </div>

@@ -52,7 +52,7 @@
                                     <li class="list-group-item">Unlimited SMS Alerts</li>
                                     <li class="list-group-item">Unlimited Email Alerts</li>
                                 </ul>
-                                <a href="#" class="btn mt-4">Request</a>
+                                <a href="request.php" class="btn mt-4">Request</a>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@
                                     <li class="list-group-item">Unlimited SMS Alerts</li>
                                     <li class="list-group-item">Unlimited Email Alerts</li>
                                 </ul>
-                                <a href="#" class="btn mt-4">Request</a>
+                                <a href="request.php" class="btn mt-4">Request</a>
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                                     <li class="list-group-item">Unlimited SMS Alerts</li>
                                     <li class="list-group-item">Unlimited Email Alerts</li>
                                 </ul>
-                                <a href="#" class="btn mt-4">Request</a>
+                                <a href="request.php" class="btn mt-4">Request</a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                                     <li class="list-group-item">Unlimited SMS Alerts</li>
                                     <li class="list-group-item">Unlimited Email Alerts</li>
                                 </ul>
-                                <a href="#" class="btn mt-4">Request</a>
+                                <a href="request.php" class="btn mt-4">Request</a>
                             </div>
                         </div>
                     </div>
