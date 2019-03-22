@@ -36,7 +36,7 @@
         <div class="d-flex flex-column justify-content-center align-items-center">
             <img src="assets/genlynk-logo.png" alt="Genlynk" width="80px">
             <h3>Request a Product</h3>
-            <p class="text-center">I would like to have more information on GenLynk ""</p>
+            <p class="text-center">I would like to have more information on GenLynk <?php echo $_GET['p'];?></p>
             <div class="form-sections">
                 <form class="pt-2 pb-5" action="index.html" method="post">
                     <div class="form-group">
