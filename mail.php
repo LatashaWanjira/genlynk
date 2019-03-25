@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 // fetch vars, organize
 $name = $_POST['name'];
 $email = $_POST['email'];
@@ -23,5 +24,25 @@ $msg =    "
 // use wordwrap() if lines are longer than 70 characters
 $msg = wordwrap($msg, 70);
 
+// mail headers
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+// More headers
+$headers .= 'From: <webmaster@example.com>' . "\r\n";
+$headers .= 'Cc: myboss@example.com' . "\r\n";
+
 // send email
-mail("chrismuga94@gmail.com", $subject, $msg);
+if (mail($email, $subject, $msg, $headers)) {
+    $response = [
+        "code"  => 1,
+        "msg"   => "Message sent successful. We'll get in touch."
+    ];
+} else {
+    $response = [
+        "code"  => 1,
+        "msg"   => "Message sent successful. We'll get in touch."
+    ];
+}
+
+var_dump($response);
