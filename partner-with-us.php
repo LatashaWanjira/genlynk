@@ -39,38 +39,38 @@
             <p class="text-center">We are looking for Resellers and Agents. Register and we will get back to you with details.
                 <br>Resellers have to be suppliers of generators. </p>
             <div class="form-sections">
-                <form class="pt-2 pb-5" action="index.html" method="post">
+                <form class="pt-2 pb-5" action="mail.php" method="post">
                     <div class="form-group">
                         <label for="inp" class="inp">
-                                  <input type="text" required="required" id="inp" placeholder="&nbsp;">
+                                  <input type="text" required="required" id="inp" placeholder="&nbsp;" name = "name">
                                   <span class="label">Name</span>
                                   <span class="border"></span>
                                 </label>
                     </div>
                     <div class="form-group">
                         <label for="inp" class="inp">
-                                  <input type="email" required="required" id="inp" placeholder="&nbsp;">
+                                  <input type="email" required="required" id="inp" placeholder="&nbsp;" name="email">
                                   <span class="label">Email</span>
                                   <span class="border"></span>
                                 </label>
                     </div>
                     <div class="form-group">
                         <label for="inp" class="inp">
-                                  <input type="text" required="required" id="inp" placeholder="&nbsp;">
+                                  <input type="text" required="required" id="inp" placeholder="&nbsp;" name="company_name">
                                   <span class="label">Company Name</span>
                                   <span class="border"></span>
                                 </label>
                     </div>
                     <div class="form-group">
                         <label for="inp" class="inp">
-                                  <input type="text" required="required" id="inp" placeholder="&nbsp;">
+                                  <input type="text" required="required" id="inp" placeholder="&nbsp;" name="phone_number">
                                   <span class="label">Phone Number</span>
                                   <span class="border"></span>
                                 </label>
                     </div>
                     <div class="form-group">
                         <label for="inp" class="inp">
-                                  <input type="text" required="required" id="inp" placeholder="&nbsp;">
+                                  <input type="text" required="required" id="inp" placeholder="&nbsp;" name="address">
                                   <span class="label">Address</span>
                                   <span class="border"></span>
                                 </label>
