@@ -50,7 +50,7 @@
                         </div>
                         <div class="question my-4">
                             <h4>Q. I have my generator serviced quarterly, why would I need GenLynk?</h4>
-                            <p>Having a maintenance schedule does not prevent the generator from malfunctioning. It also does not inform you incase of fuel theft. Genlynk enables you to be empowered and proactive. It insures maximum reliability for you, your company and your customers.</p>
+                            <p>Having a maintenance schedule does not prevent the generator from malfunctioning. It also does not inform you in case of fuel theft. Genlynk enables you to be empowered and proactive. It insures maximum reliability for you, your company and your customers.</p>
                         </div>
                         <div class="question my-4">
                             <h4>Q. How will I know if there is an alarm or fault with my generator?</h4>
@@ -62,7 +62,7 @@
                         </div>
                         <div class="question my-4">
                           <h4>Q. Can I bill my tenants for actual fuel consumed?</h4>
-                          <p>Yes. See <a href="our-products.php">products</a> page for more details.</p>
+                          <p>Yes. See <a href="our-products.php" class ="text-primary">products</a> page for more details.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -83,7 +83,7 @@
                             <p>GPS is standard on Genlynk.</p>
                         </div>
                         <div class="question my-4">
-                            <h4>Q. I have more than one generator at the site. Can I monitor workfor multiple generators?</h4>
+                            <h4>Q. I have more than one generator at the site. Can I monitor work for multiple generators?</h4>
                             <p>Yes.</p>
                         </div>
                         <div class="question my-4">

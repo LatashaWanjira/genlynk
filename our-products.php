@@ -34,7 +34,7 @@
         <!-- navbar -->
         <div class="landing-screen">
             <h1>Our Products</h1>
-            <h3>Outline of our products</h3>
+            <h3>All our products have built-in tenant billing system</h3>
         </div>
         <div class="faq py-5">
             <div class="container">
