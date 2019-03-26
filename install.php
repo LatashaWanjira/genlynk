@@ -43,6 +43,7 @@
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
                             <div class="card-header">
+                              <i class="fas fa-tachometer-alt pr-3"></i>
                                 Fuel Sensor
                             </div>
                             <div class="card-body">
@@ -55,6 +56,7 @@
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
                             <div class="card-header">
+                              <i class="fas fa-car-battery pr-3"></i>
                                 Battery
                             </div>
                             <div class="card-body">
@@ -67,6 +69,7 @@
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
                             <div class="card-header">
+                              <i class="fas fa-power-off pr-3"></i>
                                 Generator ON/OFF Status
                             </div>
                             <div class="card-body">
@@ -79,6 +82,7 @@
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
                             <div class="card-header">
+                              <i class="fas fa-tachometer-alt pr-3"></i>
                                 Energy Meter
                             </div>
                             <div class="card-body">
@@ -91,6 +95,7 @@
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
                             <div class="card-header">
+                              <i class="fas fa-cash-register pr-3"></i>
                                 Flow Totalizer
                             </div>
                             <div class="card-body">
@@ -103,6 +108,7 @@
                     <div class="col-md-4 col-sm-12 mb-5">
                         <div class="card">
                             <div class="card-header">
+                              <i class="fas fa-toggle-on pr-3"></i>
                                 Generator Controller
                             </div>
                             <div class="card-body">
