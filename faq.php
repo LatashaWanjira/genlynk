@@ -75,10 +75,6 @@
                             <p>Yes.</p>
                         </div>
                         <div class="question my-4">
-                            <h4>Q. We have sites in multiple states. Can I observe all of them from one web page?</h4>
-                            <p>Yes.</p>
-                        </div>
-                        <div class="question my-4">
                             <h4>Q. Is there GPS on the monitor?</h4>
                             <p>GPS is standard on Genlynk.</p>
                         </div>
